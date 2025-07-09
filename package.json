@@ -12,7 +12,4 @@
   "dependencies": {
     "puppeteer": "^24.12.1"
   }
-  "puppeteer": {
-    "default_browser_revision": "125.0.0"
-  }
 }
