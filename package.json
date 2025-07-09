@@ -1,0 +1,18 @@
+{
+  "name": "projudi",
+  "version": "1.0.0",
+  "main": "consultaCpf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "puppeteer": "^24.12.1"
+  }
+}
+"puppeteer": {
+  "default_browser_revision": "125.0.0"
+}
