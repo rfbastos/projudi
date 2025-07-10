@@ -3,10 +3,11 @@
   "version": "2.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "puppeteer install"
   },
   "dependencies": {
     "express": "^5.1.0",
-    "puppeteer-core": "^22.6.3"
+    "puppeteer": "^24.12.1"
   }
 }
