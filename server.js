@@ -1,3 +1,5 @@
+process.env.PUPPETEER_CACHE_DIR = '/tmp/.cache/puppeteer';  // Define a variável de ambiente para cache do Puppeteer
+
 const express = require("express");
 const puppeteer = require("puppeteer"); // puppeteer completo
 
