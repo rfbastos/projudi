@@ -1,13 +1,13 @@
 {
   "name": "projudi",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "npx puppeteer install"
   },
   "dependencies": {
     "express": "^5.1.0",
-    "puppeteer-core": "^21.3.8",
-    "chrome-aws-lambda": "^10.1.0"
+    "puppeteer": "^24.12.1"
   }
 }
